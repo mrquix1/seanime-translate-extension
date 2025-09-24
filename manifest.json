@@ -1,0 +1,17 @@
+{
+  "name": "Seanime Translate Extension",
+  "id": "seanime-translate",
+  "version": "0.1.0",
+  "description": "Automatically translates anime titles, descriptions, and metadata into your chosen language.",
+  "author": "YOURNAME",
+  "main": "index.js",
+  "type": "anime-source",
+  "settings": [
+    {
+      "key": "targetLang",
+      "type": "string",
+      "default": "es",
+      "label": "Target Language"
+    }
+  ]
+}
